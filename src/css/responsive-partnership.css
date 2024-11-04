@@ -1,0 +1,47 @@
+@media (min-width: 768px) {
+  .partnerships-container {
+    flex-direction: row;
+    /* Row layout for tablets and larger screens */
+  }
+
+  .left-image,
+  .right-image {
+    width: 25%;
+    /* Adjust width for larger devices */
+  }
+
+  .center-content {
+    width: 50%;
+    /* Center content takes up half space */
+  }
+
+  .center-content h2 {
+    font-size: 28px;
+    /* Increase font size for larger screens */
+  }
+
+  .center-content .subheading {
+    font-size: 18px;
+    /* Increase font size for larger screens */
+  }
+
+  .highlights {
+    font-size: 16px;
+    /* Larger font size for tablets */
+  }
+
+  .highlights img {
+    width: 50px;
+    /* Larger icons for tablets */
+  }
+
+  .partnership-logos {
+    flex-direction: row;
+    /* Row layout for logos on larger screens */
+  }
+
+  .partnership-logos img {
+    width: 120px;
+    /* Original size for larger devices */
+  }
+}

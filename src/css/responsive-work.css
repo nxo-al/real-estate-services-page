@@ -1,0 +1,26 @@
+@media (min-width: 768px) {
+  .work-img {
+    height: 600px;
+    /* Original height for larger devices */
+  }
+
+  .work-title {
+    font-size: 60px;
+    /* Larger font size for larger devices */
+  }
+
+  .work-with-us p {
+    font-size: 18px;
+    /* Original font size for larger devices */
+  }
+
+  .work-contact {
+    width: 30%;
+    /* Set width for larger devices */
+    padding: 15px;
+    /* Consistent padding on larger screens */
+    font-size: 16px;
+    /* Font size for larger screens */
+  }
+
+}
