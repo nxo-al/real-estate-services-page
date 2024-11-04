@@ -1,0 +1,51 @@
+@media (max-width: 768px) {
+  .drone-container {
+    flex-direction: column;
+    /* Stack elements vertically */
+    align-items: center;
+  }
+
+  .drone-approach,
+  .drone-details,
+  .drone-view {
+    width: 90%;
+    /* Full width for readability */
+    margin-bottom: 20px;
+    /* Space between sections */
+  }
+
+  .drone-btn {
+    flex-direction: column;
+    width: 100%;
+    /* Full width for buttons */
+    gap: 10px;
+    /* Space between buttons */
+  }
+}
+
+/* Mobile (Small Screens) */
+@media (max-width: 480px) {
+
+  .drone-approach,
+  .drone-details,
+  .drone-view {
+    width: 90%;
+    /* Full width on mobile */
+  }
+
+  .drone-container {
+    padding: 0 10px;
+    /* Padding around container for mobile */
+  }
+
+  .drone-btn {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contact-btn,
+  .learn-more {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
